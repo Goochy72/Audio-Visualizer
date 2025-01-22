@@ -12,12 +12,14 @@ sudo apt install libpulse-dev libncurses5-dev build-essential pulseaudio
 
 Navigate to the directory where you have the 'fftw.c' file
 
+
 Run these commands:
 
 gcc -o fftw fftw.c -lpulse-simple -lpulse -lncurses -lm
 
 ./fftw
 
+ 
 
 Play audio and it should start working!!
 
