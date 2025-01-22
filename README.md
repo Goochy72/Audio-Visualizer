@@ -6,15 +6,15 @@ Basic C Based Terminal Audio Visualizer
 
 Run this command:
 
-sudo apt install libpulse-dev libncurses5-dev build-essential pulseaudio
+~'sudo apt install libpulse-dev libncurses5-dev build-essential pulseaudio'
 
 Navigate to the directory where you have the 'fftw.c' file
 
 Run these commands:
 
-gcc -o fftw fftw.c -lpulse-simple -lpulse -lncurses -lm
+~'gcc -o fftw fftw.c -lpulse-simple -lpulse -lncurses -lm'
 
-./fftw
+~'./fftw'
 
 Play audio and it should start working!!
 
